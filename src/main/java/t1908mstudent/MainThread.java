@@ -26,7 +26,7 @@ public class MainThread {
                         searching();
                         break;
                     case 3:
-                        System.out.println("Goodbye");
+                        System.out.println("Goodbye!!");
                         break;
                     default:
                         System.out.println("Please enter it again");
@@ -60,7 +60,7 @@ public class MainThread {
     }
 
     public static void searching(){
-        System.out.print("Search information by student code: ");
+        System.out.print("Tìm kiếm thông tin theo mã sinh viên: ");
         String searching = scanner.nextLine();
         student = mapStudent.get(searching);
         if (student == null) {
